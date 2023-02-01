@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Poppins Light'), local('Poppins-Light'), url(https://web.archive.org/web/20170126060058im_/https://fonts.gstatic.com/s/poppins/v1/D2gN9uyZ9Ucx1fJ1Fhb7sy3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poppins'), local('Poppins-Regular'), url(https://web.archive.org/web/20170126060058im_/https://fonts.gstatic.com/s/poppins/v1/TDTjCH39JjVycIF24TlO-Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Poppins Medium'), local('Poppins-Medium'), url(https://web.archive.org/web/20170126060058im_/https://fonts.gstatic.com/s/poppins/v1/yQWaOD4iNU5NTY0apN-qjy3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(https://web.archive.org/web/20170126060058im_/https://fonts.gstatic.com/s/poppins/v1/zO07Oxe3SOlw0l2YX2sdIS3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Poppins Bold'), local('Poppins-Bold'), url(https://web.archive.org/web/20170126060058im_/https://fonts.gstatic.com/s/poppins/v1/57TQ-anwthzkETEIO4jESC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 06:00:58 Jan 26, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:05:43 Feb 01, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 96.927
+  exclusion.robots: 0.087
+  exclusion.robots.policy: 0.079
+  RedisCDXSource: 1.374
+  esindex: 0.008
+  LoadShardBlock: 58.901 (3)
+  PetaboxLoader3.datanode: 745.102 (5)
+  CDXLines.iter: 22.039 (3)
+  load_resource: 929.509 (2)
+  PetaboxLoader3.resolve: 178.91 (2)
+*/
