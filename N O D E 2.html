@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://n-o-d-e.net/usb_soldering_iron.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>N O D E</title>
+    <link rel="shortcut icon" href="https://n-o-d-e.live/images/avatar.png">
+    <link rel="alternate" href="https://n-o-d-e.net/rss/rss.xml" type="application/rss+xml" title="N O D E">
+    <link rel="stylesheet" type="text/css" href="./N O D E 2_files/style_hashbase.css" media="screen">
+</head>
+
+<body>
+    
+    <!--HEADER SECTION -->
+
+            <div id="header" class="header">
+                <div class="logodiv">
+                    <a href="https://n-o-d-e.net/index.html"><img class="logo" src="./N O D E 2_files/logo.svg"></a>
+
+                    <div class="filter">
+                    <a href="https://n-o-d-e.net/index.html">HOME</a>
+
+                    <span class="footdogs">  / </span>
+                    <a href="https://n-o-d-e.net/zine/index.html">ZINE</a>
+
+                    <span class="footdogs">  / </span>
+                    <a href="https://n-o-d-e.live/">LIVE</a>
+
+                    <span class="footdogs">  / </span>
+                    <a href="https://n-o-d-e.net/rss/rss.xml">RSS</a>
+
+
+
+                    <span class="footdogs">  / </span>
+                    <a href="http://n-o-d-e.shop/">SHOP</a>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        <div id="content">
+
+        <div id="page">
+
+            <!--CONTENT -->
+            
+            <div id="list">
+
+                <div class="title">
+                ADDING USB-C TO A CHEAP SOLDERING IRON<br>
+                --
+                </div>
+
+                <div id="post">
+                <p>I'm currently in the middle of redesigning the mini toolkit which I use regularly for a lot of my work, and I wanted to show you a little project from it.<br><br>
+                Being quite fond of the cheap USB soldering irons, I wanted to update it and add a USB-C socket to the back.</p>
+
+                <div class="videowrapper">
+                    <video controls="" poster="https://n-o-d-e.live/images/thumbnails/usb_soldering_iron.png">
+                      <source src="https://n-o-d-e.live/videos/usb_soldering_iron.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                </div>
+
+
+                <p class="subtitle">THE ORIGINAL IRON</p>
+
+                <p>For how inexpensive they are, and their worldwide availability, I think these irons are pretty decent. If you're doing a lot of work or something more intricate you might need something more powerful, but for a lot of small, quick tasks it does the job well enough.</p>
+
+                <p>It's so light and small that I can take it with me, say if I'm reparing something around the house, and because it's USB powered, I can power it multiple ways, through a charger, powerbank or a computer's USB port.</p>
+
+                <p>The only thing I'm not as fond of is the USB to 3.5mm cable which is required to power it. I don't use this cable for anything else, and that's why I wanted to switch it with a USB-C one.</p>
+
+
+                <p class="subtitle">USB-C ADAPTER</p>
+
+                <p>I was originally planning on taking the iron apart, removing the 3.5mm socket and replacing it all manually, then I was going to design a 3D printed case and all the rest, but I realized it's much simpler to just add USB-C using a custom adapter, so I scrapped my initial plans and made one.</p>
+
+                <p>This little thing has it's own 3.5mm jack and simply plugs into the back of the iron, routing the 5V and GND through USB-C socket.</p>
+
+                <p>The two main components needed are firstly a USB-C breakout board. If you're going to make your own, find one that looks just like this, as there are many variations. This one has 4 contacts on the back. Just search for USB-C female breakout.</p>
+
+                <p>The other component is the 3.5mm 2 or 3 pole jack. These are also generic, so when you search, use keywords like "3 Pole Male Plug 3.5mm Solder" and hopefully it'll pop up. I just used one I already had on hand, so if you can't find the exact one, you may need to redesign the 3D printed collar so it holds the jack snugly.</p>
+
+                <p>Inside is straightforward, just cut down the contacts at the end of the jack, and solder two wires to it. You only need the 2 pins for the 5V and GND, as indicated here, so you can remove the other one if you have a 3 pole jack. Once complete, solder the other end of the wires to the 5V and GND contacts on the breakout board. You can add a bit of electrical tape or glue to the stop any potential shorts when it's put in the case.</p>
+
+                <p>After that you glue the collar around the jack, place the USB-C breakout and wires into the case, and screw the top on using 2x M1.4 x 6mm screws. Once the collar and jack is screwed in it holds everything in place.</p>
+
+
+                <p class="subtitle">CONCLUSION</p>
+
+                <p>I think that's all there is to say about it. The adapter is simple and does the job. I intend to just leave it on the end of my iron from now on. I also went a bit further and painted the case black just to finish it off, and I'm very pleased with the result.</p>
+
+                <p>If you want to make your own the source files are linked in the description. I'm guessing a few of you have one of these, so hopefully it's useful.</p>
+
+
+                <p class="subtitle">OTHER UPDATES</p>
+
+                <p>Just wanted to mention a couple things at the end of the video. Firstly, thank you to all the people who have been reading MOSFET.net since it launched a couple weeks ago. I appreciate all the feedback and glad you seem to like it.</p>
+
+                <p>I've also added a new Simulation Grid tee design to the shop, so pick one up if you like it and want to support the site/channel.</p>
+
+                <p>I’m also looking for a front end web developer to collab with on an open source HTML template project. It’ll be a free resource for designers/engineers/makers. If you want to help build something great, send portfolios/github links to: FrontEndDev@N-O-D-E.net.</p>
+
+                <p>Alright that's it, thanks again for everything. I've got a lot planned for this year, so stay tuned. I'll see you in the next video, bye.</p>
+
+
+                <p class="subtitle">SOURCE FILES</p>
+
+                <p>Download the source files <a href="https://n-o-d-e.live/files/soldering_iron/USB_Soldering_Iron.zip" target="_blank">HERE</a></p>
+
+
+                <p>--<br>
+                BY NODE</p>
+
+
+                </div>
+
+
+            </div>
+            
+             
+
+                
+                </div>
+
+        </div>
+
+
+</body></html>

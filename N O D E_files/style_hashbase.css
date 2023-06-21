@@ -1,0 +1,65 @@
+/*
+=============================
+    _   ______  ____  ______
+   / | / / __ \/ __ \/ ____/
+  /  |/ / / / / / / / __/   
+ / /|  / /_/ / /_/ / /___   
+/_/ |_/\____/_____/_____/   
+
+=============================
+*/
+@font-face 		{
+				font-family: 'Share Tech Mono';
+				src: url('https://n-o-d-e.live/fonts/font.eot');
+				src: local('☺'), url('https://n-o-d-e.live/fonts/font.woff') format('woff'), url('https://n-o-d-e.live/fonts/font.ttf') format('truetype'), url('https://n-o-d-e.live/fonts/font.svg') format('svg');
+				}
+
+body            {letter-spacing: 0.1px; padding: 0; margin: 0; font-family: 'Share Tech Mono', Monospace, Courier; 
+                font-weight: 400; font-size: 17px; color: #c8c8c8; background: #222;}
+html            {-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+pre             {padding: 0; margin: 0 0 50px 0;}
+ul              {padding: 0;}
+span            {padding: 0; margin: 0 10px 0 0;}
+li              {margin: 15px 0; padding: 0; list-style: none;}
+a               {text-decoration: none; color: #fff;}
+a:hover         {color: #fff; text-decoration: underline;}
+p               {padding: 0; margin: 10px 0 30px 0;}
+img             {width: 900px; max-width: 900px; margin-bottom: 20px;}
+#page           {max-width: 900px; margin: auto; padding: 0 20px;}
+#content        {max-width:100%; margin: auto;}
+#footer 		{max-width: 900px; margin:auto; margin-top: 55px;}
+.header			{height: 66px; width: 100%; margin: auto; margin-bottom: 50px; border-bottom: dotted 1px #444;}
+.logodiv 		{max-width: 900px; margin:auto; padding: 0 20px;}
+.logo			{width: 41px; margin: auto; margin-top: 20px; border: solid 1px #FFF;}
+#list           {margin-bottom: 50px;}
+#post           {max-width: 900px; margin-bottom: 20px; margin-top: -10px; line-height: 28px;}
+.categories		{max-width: 300px; right:0; margin: 40px 60px 0 0; position: fixed; background: #222;
+				text-align: right; z-index: 0;}
+@media 			all and (max-width: 1000px) and (min-width: 20px) {
+.categories 	{visibility: hidden;}
+.catbox			{visibility: hidden;}
+}
+.catbox			{width: 300px; height: 160px; right:0; margin:0; position: absolute; background: #222;
+				display: block; z-index: 999;}
+.footdogs       {margin:0 5px}
+.tag            {color: #c8c8c8;}
+.notification   {color: #222; background: #fff;}
+.important      {margin-left: -18px;}
+.title          {display: inline-block; margin-bottom: 20px; margin-top: 20px; color: #FFF;}
+.shoptitle      {display: inline-block; margin-bottom: 20px; margin-top: 20px; position: fixed;}
+.subtitle       {display: inline-block; margin: 20px 0; color: #FFF;}
+.subtitle2      {display: inline-block; color: #222; background: #FFF;}
+.subtitle2:hover{color: #222; background: #FFF;}
+.code           {max-width: 900px; background: #1f1f1f; padding: 20px; margin:10px 0 30px 0; display:inline-block;}
+.shop           {max-width: 900px; margin: -10px 0 40px 0;}
+.codesmall      {background: #1f1f1f; display:inline-block;}
+.filter         {display:block; margin-bottom: 30px; margin-top: -28px; text-align: right;}
+.description    {background: #1f1f1f; padding: 10px 0 10px 10px; margin-top: 0px;}
+.videowrapper   {position: relative; padding-bottom: 56.45%; height: 0;}
+video 			{max-width: 100%}
+
+@media 			only screen and (max-width: 900px)
+{
+img 			{width: 100%;}
+body			{font-size: 19px;}
+}
